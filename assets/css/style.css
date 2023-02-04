@@ -26,6 +26,7 @@ a{
 .img-cover{
     object-position: center;
     object-fit: cover;
+    height: 100vh;
 }
 .bg-dark-blue{
     background-color: var(--dark-blue);
@@ -68,6 +69,9 @@ a{
     object-fit: cover;
 }
 @media (max-width: 750px) {
+    .img-cover{
+        height: 50vh;
+    }
     .cover{
         flex-direction: column;
     }
